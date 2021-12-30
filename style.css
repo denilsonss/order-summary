@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;900&display=swap');
 
 :root {
+    --sombreado: rgba(56, 42, 225, 0.1903);
+    --black: #1F2E55;
     --azul-claro-100: #D6E1FF;
+    --azul-escuro: #382AE1;
+    --cinza: #717FA6;
+    --cinza-claro: #F7F9FF;
     --branco: white;
     --cabeçalho: 22px;
     --corpo: 15px;
@@ -24,6 +29,7 @@
     height: 567px;
     border-radius: 20px;
     margin-bottom: 32px;
+    font-family: Outfit;
 }
 
 .image {
@@ -36,4 +42,91 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.title {
+    font-size: var(--cabeçalho);
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.descrition {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 24px;
+    font-size: var(--corpo);
+    color: var(--cinza);
+    font-weight: 500;
+
+}
+
+.annual-plan {
+    background-color: var(--cinza-claro);
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 279px;
+    height: 81px;
+
+}
+
+.plan {
+    margin-right: 50px;
+    font-weight: 900;
+    font-size: var(--rodapé);
+
+}
+
+.value {
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: var(--rodapé);
+    color: var(--cinza);
+}
+
+.icon-music {
+    width: 48px;
+    height: 48px;
+    margin: 15px;
+}
+
+.button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 279px;
+    height: 50px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    border-radius:12px;
+    background-color: var(--azul-escuro);
+    border: none;
+    font-weight: 900;
+    color: var(--branco);   
+}
+
+
+
+.link {
+    color:var(--azul-escuro);
+    margin-right: 16px;
+    font-weight: 700;
+    font-size: var(--link);
+}
+
+.footter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    font-weight: 500;
+    color: var(--cinza);
+    font-size: var(--corpo);
 }
