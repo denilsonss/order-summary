@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;900&display=swap');
+
+:root {
+    --azul-claro-100: #D6E1FF;
+    --branco: white;
+    --cabeçalho: 22px;
+    --corpo: 15px;
+    --rodapé: 14px;
+    --link: 13px;
+}
+
+.main {
+    background-color: var(--azul-claro-100);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: Outfit;
+}
+
+.card {
+    background-color: var(--branco);
+    width: 327px;
+    height: 567px;
+    border-radius: 20px;
+    margin-bottom: 32px;
+}
+
+.image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 32px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
