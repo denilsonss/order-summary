@@ -4,6 +4,7 @@
     --sombreado: rgba(56, 42, 225, 0.1903);
     --black: #1F2E55;
     --azul-claro-100: #D6E1FF;
+    --azul-claro-200: #766CF1;
     --azul-escuro: #382AE1;
     --cinza: #717FA6;
     --cinza-claro: #F7F9FF;
@@ -13,6 +14,8 @@
     --rodapé: 14px;
     --link: 13px;
 }
+
+
 
 .main {
     background-color: var(--azul-claro-100);
@@ -106,27 +109,46 @@
     height: 50px;
     margin-bottom: 24px;
     margin-left: 24px;
-    border-radius:12px;
+    border-radius: 12px;
     background-color: var(--azul-escuro);
     border: none;
     font-weight: 900;
-    color: var(--branco);   
+    color: var(--branco);
+    cursor: pointer;
+}
+
+.button:hover {
+    background: var(--azul-claro-200);
 }
 
 
 
 .link {
-    color:var(--azul-escuro);
+    color: var(--azul-escuro);
     margin-right: 16px;
     font-weight: 700;
     font-size: var(--link);
 }
 
+.link:hover {
+    color: var(--azul-claro-200);
+}
+
 .footter {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-left: 116px;
     margin-bottom: 32px;
     font-weight: 500;
     color: var(--cinza);
     font-size: var(--corpo);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.footter:hover{
+    color: black;
+    font-weight: 900;
+    
 }
